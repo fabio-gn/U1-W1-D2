@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:rgb(215, 223, 255);
+}
+header img{
+    width: 200px;
+}
+#menu ul{
+    list-style-type: none;
+    padding-left: none;
+    display: flex; 
+    gap: 20px
+}
+table{
+    
+}
+table thead th{
+    background-color: rgb(255, 205, 205);
+}
+table tr{
+    background-color: rgb(215, 223, 255);
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    justify-content: ;
+}
+main{
+    background-color: ;
+    padding:1rem 1rem 1rem 0;
+    width: 100%;
+}
+main h1{
+    background-color: rgb(255, 61, 61);
+    color: white;
+    padding:1rem 1rem 1rem 0;
+    font-size: 2rem;
+}
+
+#correlati{
+    background-color:rgb(215, 223, 255);
+    padding: 1rem;
+}
+#correlati div{
+    background-color: rgb(244, 246, 255);
+    padding: 1rem;
+}
+#correlati h5{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+footer{
+    background-color:rgb(255, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer h6{
+    font-size: 13px;
+    margin: none;
+}
